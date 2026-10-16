@@ -33,6 +33,9 @@ final class WPStub {
 class WP_Post {
 	public $ID;
 	public $post_title = '';
+	public $post_type = 'post';
+	public $post_status = 'publish';
+	public $post_content = '';
 	public $post_password = '';
 	public function __construct( array $data = [] ) {
 		foreach ( $data as $key => $value ) {
