@@ -1,0 +1,14 @@
+{
+  "name": "libreblocks-core",
+  "version": "0.1.1",
+  "private": true,
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build assets/src/dashboard/dashboard.js --output-path=build",
+    "start": "wp-scripts start assets/src/dashboard/dashboard.js --output-path=build",
+    "lint:js": "wp-scripts lint-js assets/src"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

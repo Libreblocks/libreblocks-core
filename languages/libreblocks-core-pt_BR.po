@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LibreBlocks Core 0.1.0\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: libreblocks-core\n"
+
+# Requisitos
+msgid "LibreBlocks requires PHP %1$s or newer. This site runs PHP %2$s."
+msgstr "O LibreBlocks requer PHP %1$s ou mais recente. Este site usa PHP %2$s."
+
+msgid "LibreBlocks requires WordPress %1$s or newer. This site runs WordPress %2$s."
+msgstr "O LibreBlocks requer WordPress %1$s ou mais recente. Este site usa WordPress %2$s."
+
+msgid "%1$s needs LibreBlocks Core %2$s or newer. Please update LibreBlocks Core."
+msgstr "O %1$s precisa do LibreBlocks Core %2$s ou mais recente. Atualize o LibreBlocks Core."
+
+# Admin
+msgid "LibreBlocks"
+msgstr "LibreBlocks"
+
+msgid "Dashboard"
+msgstr "Painel"
+
+msgid "LibreBlocks admin assets are missing. Run \"npm install && npm run build\" inside libreblocks-core."
+msgstr "Os arquivos do painel do LibreBlocks estão faltando. Execute \"npm install && npm run build\" na pasta libreblocks-core."
+
+msgid "Products"
+msgstr "Produtos"
+
+msgid "Coming soon"
+msgstr "Em breve"
+
+msgid "Active · v%s"
+msgstr "Ativo · v%s"
+
+msgid "Needs a newer LibreBlocks Core"
+msgstr "Requer um LibreBlocks Core mais recente"
+
+msgid "Core %1$s · WordPress %2$s · PHP %3$s"
+msgstr "Core %1$s · WordPress %2$s · PHP %3$s"
+
+msgid "Could not load the status."
+msgstr "Não foi possível carregar o status."
+
+msgid "Some database tables are waiting to be created or updated. Reload any admin page to run the update."
+msgstr "Algumas tabelas do banco de dados aguardam criação ou atualização. Recarregue qualquer página do painel para executar a atualização."
+
+msgid "Field types (%d)"
+msgstr "Tipos de campo (%d)"
+
+msgid "Dynamic tokens (%d)"
+msgstr "Tokens dinâmicos (%d)"
+
+msgid "Post types, fields, relations, queries and dynamic listings."
+msgstr "Tipos de post, campos, relações, consultas e listagens dinâmicas."
+
+msgid "AJAX filters for listings."
+msgstr "Filtros AJAX para listagens."
+
+msgid "Form builder."
+msgstr "Construtor de formulários."
+
+msgid "Nightly bookings."
+msgstr "Reservas por diária."
+
+msgid "Appointments by time slot."
+msgstr "Agendamentos por horário."
+
+# Tipos de campo
+msgid "Text"
+msgstr "Texto"
+
+msgid "Textarea"
+msgstr "Área de texto"
+
+msgid "Rich text"
+msgstr "Texto formatado"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "Date & time"
+msgstr "Data e hora"
+
+msgid "Select"
+msgstr "Seleção"
+
+msgid "Radio"
+msgstr "Opção única"
+
+msgid "Checkboxes"
+msgstr "Caixas de seleção"
+
+msgid "Switch"
+msgstr "Liga/desliga"
+
+msgid "Color"
+msgstr "Cor"
+
+msgid "Media"
+msgstr "Mídia"
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgid "Posts"
+msgstr "Posts"
+
+msgid "Terms"
+msgstr "Termos"
+
+msgid "Users"
+msgstr "Usuários"
+
+msgid "Icon"
+msgstr "Ícone"
+
+msgid "Repeater"
+msgstr "Repetidor"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid "Tab"
+msgstr "Aba"
+
+# Validação
+msgid "%s is required."
+msgstr "%s é obrigatório."
+
+msgid "%s must be a valid e-mail address."
+msgstr "%s precisa ser um e-mail válido."
+
+msgid "%1$s must be at least %2$s."
+msgstr "%1$s precisa ser no mínimo %2$s."
+
+msgid "%1$s must be at most %2$s."
+msgstr "%1$s precisa ser no máximo %2$s."
+
+msgid "%1$s must have at most %2$d characters."
+msgstr "%1$s pode ter no máximo %2$d caracteres."
+
+msgid "%1$s needs at least %2$d items."
+msgstr "%1$s precisa de pelo menos %2$d itens."
+
+msgid "Item %1$d: %2$s"
+msgstr "Item %1$d: %2$s"
+
+# Tokens
+msgid "Key"
+msgstr "Chave"
+
+msgid "Current object ID"
+msgstr "ID do objeto atual"
+
+msgid "Current object type"
+msgstr "Tipo do objeto atual"
+
+msgid "Current object meta"
+msgstr "Meta do objeto atual"
+
+msgid "Current object property"
+msgstr "Propriedade do objeto atual"
+
+msgid "Parent loop object ID"
+msgstr "ID do objeto do loop pai"
+
+msgid "Page object ID"
+msgstr "ID do objeto da página"
+
+msgid "Page object meta"
+msgstr "Meta do objeto da página"
+
+msgid "Current user ID"
+msgstr "ID do usuário atual"
+
+msgid "Current user meta"
+msgstr "Meta do usuário atual"
+
+msgid "Current user roles"
+msgstr "Funções do usuário atual"
+
+msgid "URL parameter"
+msgstr "Parâmetro da URL"
+
+msgid "Parameter name"
+msgstr "Nome do parâmetro"
+
+msgid "Site option"
+msgstr "Opção do site"
+
+msgid "option or option:key"
+msgstr "opção ou opção:chave"
+
+msgid "Today (Y-m-d)"
+msgstr "Hoje (Y-m-d)"
+
+msgid "Now (Y-m-d\\TH:i)"
+msgstr "Agora (Y-m-d\\TH:i)"
+
+msgid "Relative date (Y-m-d)"
+msgstr "Data relativa (Y-m-d)"
+
+msgid "Relative timestamp"
+msgstr "Timestamp relativo"
+
+msgid "e.g. +7 days"
+msgstr "ex.: +7 days"
