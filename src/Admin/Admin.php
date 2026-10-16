@@ -11,7 +11,7 @@
  *         'icon'  => Icons::data_uri( 'libreforge' ),
  *         'pages' => [
  *             [ 'slug' => 'libreforge', 'title' => __( 'Dashboard', 'libreforge' ), 'render' => $render ],
- *             [ 'slug' => 'libreforge-post-types', 'title' => __( 'Post types', 'libreforge' ), 'render' => $render ],
+ *             [ 'slug' => 'libreforge-post-types', 'title' => __( 'Post Types', 'libreforge' ), 'render' => $render ],
  *         ],
  *     ] );
  *
