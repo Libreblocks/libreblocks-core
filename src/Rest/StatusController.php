@@ -7,6 +7,7 @@
 
 namespace LibreBlocks\Core\Rest;
 
+use LibreBlocks\Core\Admin\Icons;
 use WP_REST_Response;
 use WP_REST_Server;
 
@@ -32,6 +33,8 @@ final class StatusController extends Controller {
 				'version'    => $product['version'],
 				'pro'        => (bool) $product['pro'],
 				'compatible' => (bool) $product['compatible'],
+				'url'        => $product['menu'] ? admin_url( 'admin.php?page=' . $product['menu'] ) : '',
+				'icon'       => Icons::data_uri( $product['slug'] ),
 			];
 		}
 

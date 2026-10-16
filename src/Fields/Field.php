@@ -102,9 +102,10 @@ final class Field {
 			$lines   = preg_split( '/\r\n|\r|\n/', $options ) ?: [];
 			$options = [];
 
+			// A list of pairs (not a map) so a repeated value keeps its first label.
 			foreach ( array_filter( array_map( 'trim', $lines ), 'strlen' ) as $line ) {
-				$parts                          = array_map( 'trim', explode( ':', $line, 2 ) );
-				$options[ (string) $parts[0] ] = $parts[1] ?? $parts[0];
+				$parts     = array_map( 'trim', explode( ':', $line, 2 ) );
+				$options[] = [ 'value' => $parts[0], 'label' => $parts[1] ?? $parts[0] ];
 			}
 		}
 

@@ -225,3 +225,104 @@ msgstr "Timestamp relativo"
 
 msgid "e.g. +7 days"
 msgstr "ex.: +7 days"
+
+# Renderizador de campos
+msgid "Add images"
+msgstr "Adicionar imagens"
+
+msgid "Add item"
+msgstr "Adicionar item"
+
+msgid "Choose file"
+msgstr "Escolher arquivo"
+
+msgid "Item %d"
+msgstr "Item %d"
+
+msgid "Move down"
+msgstr "Mover para baixo"
+
+msgid "Move up"
+msgstr "Mover para cima"
+
+msgid "Pick a color"
+msgstr "Escolher uma cor"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Remove item"
+msgstr "Remover item"
+
+msgid "Select a file"
+msgstr "Selecionar um arquivo"
+
+msgid "Select images"
+msgstr "Selecionar imagens"
+
+msgid "The media library is not available on this screen."
+msgstr "A biblioteca de mídia não está disponível nesta tela."
+
+msgid "Type to search…"
+msgstr "Digite para buscar…"
+
+msgid "You are not allowed to list users."
+msgstr "Você não tem permissão para listar usuários."
+
+msgid "required"
+msgstr "obrigatório"
+
+msgid "— Select —"
+msgstr "— Selecione —"
+
+# Kit visual e painel
+msgid "Active plugins"
+msgstr "Plugins ativos"
+
+msgid "All changes saved"
+msgstr "Todas as alterações salvas"
+
+msgid "Available in field groups, options pages and forms."
+msgstr "Disponíveis em grupos de campos, páginas de opções e formulários."
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Core version"
+msgstr "Versão do Core"
+
+msgid "Discard"
+msgstr "Descartar"
+
+msgid "Dynamic tokens"
+msgstr "Tokens dinâmicos"
+
+msgid "Field types"
+msgstr "Tipos de campo"
+
+msgid "Good afternoon"
+msgstr "Boa tarde"
+
+msgid "Good evening"
+msgstr "Boa noite"
+
+msgid "Good morning"
+msgstr "Bom dia"
+
+msgid "Has errors"
+msgstr "Tem erros"
+
+msgid "Open %s"
+msgstr "Abrir %s"
+
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+msgid "Search icons"
+msgstr "Buscar ícones"
+
+msgid "Unsaved changes"
+msgstr "Alterações não salvas"
+
+msgid "Use them in queries and texts. Click to copy."
+msgstr "Use em consultas e textos. Clique para copiar."

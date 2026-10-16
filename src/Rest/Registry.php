@@ -18,6 +18,7 @@ final class Registry {
 
 	public function __construct( private Plugin $core ) {
 		$this->add( StatusController::class );
+		$this->add( ObjectsController::class );
 	}
 
 	public function hook(): void {

@@ -58,6 +58,6 @@ class ObjectPicker extends BaseType {
 	public function schema( Field $field, Registry $registry ): array {
 		return $field->arg( 'multiple' )
 			? [ 'type' => 'array', 'items' => [ 'type' => 'integer' ] ]
-			: [ 'type' => [ 'integer', 'string' ] ];
+			: [ 'type' => 'integer' ];
 	}
 }

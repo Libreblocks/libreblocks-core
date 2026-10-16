@@ -38,6 +38,6 @@ class Media extends BaseType {
 	}
 
 	public function schema( Field $field, Registry $registry ): array {
-		return [ 'type' => [ 'integer', 'string' ] ];
+		return [ 'type' => 'integer' ];
 	}
 }

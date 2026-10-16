@@ -18,7 +18,7 @@ final class Products {
 	 * Registers a product. Returns false (and shows an admin notice) when the
 	 * installed core is older than the product needs; the product must not boot.
 	 *
-	 * @param array{name: string, version: string, file: string, requires_core?: string, pro?: bool} $args
+	 * @param array{name: string, version: string, file: string, requires_core?: string, pro?: bool, menu?: string} $args
 	 */
 	public function register( string $slug, array $args ): bool {
 		$product = wp_parse_args( $args, [
@@ -27,6 +27,7 @@ final class Products {
 			'file'          => '',
 			'requires_core' => '0.1.0',
 			'pro'           => false,
+			'menu'          => '',
 		] );
 
 		$product['slug']       = $slug;

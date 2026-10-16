@@ -18,11 +18,12 @@ final class WPStub {
 	public static array $meta    = [];
 	public static array $options = [];
 	public static array $cache   = [];
+	public static array $registered = [];
 	public static int $user_id   = 0;
 	public static $queried       = null;
 
 	public static function reset(): void {
-		self::$filters = self::$meta = self::$options = self::$cache = [];
+		self::$filters = self::$meta = self::$options = self::$cache = self::$registered = [];
 		self::$user_id = 0;
 		self::$queried = null;
 		$_GET          = [];

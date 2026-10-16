@@ -1,0 +1,22 @@
+/** Dashicons offered by the icon picker (names without the "dashicons-" prefix). */
+export const DASHICONS = [
+	'admin-post', 'admin-page', 'admin-media', 'admin-links', 'admin-comments', 'admin-users', 'admin-tools',
+	'admin-settings', 'admin-generic', 'admin-home', 'admin-site', 'admin-network', 'admin-appearance',
+	'admin-plugins', 'admin-customizer', 'admin-multisite', 'archive', 'album', 'analytics', 'awards',
+	'backup', 'bank', 'beer', 'bell', 'book', 'book-alt', 'building', 'businessman', 'businessperson',
+	'businesswoman', 'calculator', 'calendar', 'calendar-alt', 'camera', 'car', 'cart', 'category',
+	'chart-area', 'chart-bar', 'chart-line', 'chart-pie', 'clipboard', 'clock', 'cloud', 'coffee',
+	'color-picker', 'database', 'desktop', 'dismiss', 'download', 'edit', 'editor-table', 'email',
+	'email-alt', 'excerpt-view', 'feedback', 'filter', 'flag', 'food', 'format-aside', 'format-audio',
+	'format-chat', 'format-gallery', 'format-image', 'format-quote', 'format-status', 'format-video',
+	'forms', 'games', 'groups', 'hammer', 'heart', 'hourglass', 'id', 'id-alt', 'images-alt2', 'info',
+	'laptop', 'layout', 'lightbulb', 'list-view', 'location', 'location-alt', 'lock', 'megaphone',
+	'microphone', 'money', 'money-alt', 'nametag', 'networking', 'palmtree', 'paperclip', 'pets', 'phone',
+	'portfolio', 'products', 'admin-collapse', 'clipboard', 'printer', 'rest-api', 'schedule', 'screenoptions',
+	'search', 'share', 'shield', 'shield-alt', 'smartphone', 'smiley', 'sos', 'star-filled', 'star-empty',
+	'store', 'tag', 'tagcloud', 'testimonial', 'tickets', 'tickets-alt', 'tide', 'translation', 'trash',
+	'awards', 'universal-access', 'unlock', 'update', 'upload', 'video-alt3', 'visibility', 'vault',
+	'welcome-learn-more', 'welcome-write-blog', 'yes-alt', 'airplane', 'bed', 'car', 'cover-image',
+	'drumstick', 'embed-generic', 'html', 'insert', 'open-folder', 'pdf', 'plugins-checked', 'saved',
+	'superhero', 'table-col-after', 'text-page', 'thumbs-up', 'buddicons-groups', 'buddicons-activity',
+].filter( ( name, index, all ) => all.indexOf( name ) === index );
