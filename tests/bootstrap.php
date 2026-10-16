@@ -81,7 +81,7 @@ function absint( $value ) { return abs( (int) $value ); }
 function wp_parse_args( $args, $defaults ) { return array_merge( $defaults, (array) $args ); }
 function wp_json_encode( $data, $flags = 0 ) { return json_encode( $data, $flags ); }
 function wp_timezone() { return new DateTimeZone( 'America/Sao_Paulo' ); }
-function wp_date( $format ) { return ( new DateTimeImmutable( 'now', wp_timezone() ) )->format( $format ); }
+function wp_date( $format, $timestamp = null ) { return ( null === $timestamp ? new DateTimeImmutable( 'now', wp_timezone() ) : ( new DateTimeImmutable( '@' . $timestamp ) )->setTimezone( wp_timezone() ) )->format( $format ); }
 function wp_unslash( $value ) { return $value; }
 function get_option( $name, $default = false ) { return WPStub::$options[ $name ] ?? $default; }
 function get_metadata( $type, $id, $key, $single ) { return WPStub::$meta[ $type ][ $id ][ $key ] ?? ''; }
