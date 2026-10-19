@@ -37,6 +37,7 @@ class WP_Post {
 	public $post_status = 'publish';
 	public $post_content = '';
 	public $post_password = '';
+	public $post_author = 0;
 	public function __construct( array $data = [] ) {
 		foreach ( $data as $key => $value ) {
 			$this->$key = $value;
