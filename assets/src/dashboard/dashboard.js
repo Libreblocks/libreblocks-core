@@ -17,7 +17,7 @@ const CATALOG = [
 	{ slug: 'libreforge', name: 'LibreForge', icon: 'hammer', description: __( 'Post types, fields, relations, queries and dynamic listings.', 'libreblocks-core' ) },
 	{ slug: 'libresift', name: 'LibreSift', icon: 'filter', description: __( 'AJAX filters for listings.', 'libreblocks-core' ) },
 	{ slug: 'libreforms', name: 'LibreForms', icon: 'feedback', description: __( 'Form builder.', 'libreblocks-core' ) },
-	{ slug: 'librestay', name: 'LibreStay', icon: 'bed', description: __( 'Nightly bookings.', 'libreblocks-core' ) },
+	{ slug: 'librestay', name: 'LibreStay', icon: 'admin-home', description: __( 'Nightly bookings.', 'libreblocks-core' ) },
 	{ slug: 'libreagenda', name: 'LibreAgenda', icon: 'calendar-alt', description: __( 'Appointments by time slot.', 'libreblocks-core' ) },
 ];
 

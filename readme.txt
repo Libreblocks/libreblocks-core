@@ -4,7 +4,7 @@ Tags: custom fields, dynamic content, blocks, elementor
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 0.3.1
+Stable tag: 0.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ LibreBlocks Core provides the services used by LibreForge, LibreSift, LibreForms
 On its own it adds only the dashboard. Install a LibreBlocks product to get features.
 
 == Changelog ==
+
+= 0.3.2 =
+* Dashboard: LibreStay card shows its icon.
 
 = 0.3.1 =
 * UI kit: collapsible sections, setting rows and an actions sidebar for editors.

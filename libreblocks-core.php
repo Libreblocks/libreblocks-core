@@ -3,7 +3,7 @@
  * Plugin Name:       LibreBlocks Core
  * Plugin URI:        https://libreblocks.com
  * Description:       Shared foundation for the LibreBlocks plugin family: fields, tokens, context, REST and admin.
- * Version:           0.3.1
+ * Version:           0.3.2
  * Requires at least: 6.6
  * Requires PHP:      8.0
  * Author:            LibreBlocks
@@ -24,7 +24,7 @@ if ( defined( 'LIBREBLOCKS_CORE_VERSION' ) ) {
 	return;
 }
 
-define( 'LIBREBLOCKS_CORE_VERSION', '0.3.1' );
+define( 'LIBREBLOCKS_CORE_VERSION', '0.3.2' );
 define( 'LIBREBLOCKS_CORE_FILE', __FILE__ );
 define( 'LIBREBLOCKS_CORE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'LIBREBLOCKS_CORE_URL', plugin_dir_url( __FILE__ ) );
