@@ -58,6 +58,13 @@ class WP_Term {
 class WP_User {
 	public $ID    = 0;
 	public $roles = [];
+	public $user_email   = '';
+	public $user_pass    = '';
+	public $user_login   = '';
+	public $display_name = '';
+	public $first_name   = '';
+	public $last_name    = '';
+	public $nickname     = '';
 	public $data;
 	public function __construct( int $id = 0, array $roles = [] ) {
 		$this->ID    = $id;
